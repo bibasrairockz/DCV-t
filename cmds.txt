@@ -1,0 +1,56 @@
+git
+git version v
+git init
+ls -a
+touch cmds.txt
+clear
+
+touch README.md
+touch test.py
+//writing test//
+
+git status
+git add README.md
+git status
+git add test.py
+git status
+git commit -m "readmeTest"
+git log
+git add cmds.txt
+git commit -m "cmds"
+git log
+git checkout a725e99
+git checkout 9755bd98
+
+  166  python test.py
+  167  touch requirements.txt
+  168  conda create -p env python==3.9 -y
+  173  source  activate ./env
+  175  touch .gitignore
+  176  pip install -r requirements.txt
+  177  pip list
+  178  clear
+
+  180  dvc init
+  181  python test.py
+  182  clear
+  183  git status
+  184  git commit -m "third commit"
+  185  git status
+  186  dvc add data/data.csv
+
+  196  git add data\\data.csv.dvc
+  197  git commit -m "dvc commit 1"
+  199  git add data\\data.csv.dvc
+  200  git commit -m "dvc commit 2"
+  201  git log
+  202  git checkout 03b89
+  203  dvc checkout
+  204  git log
+  205  git checkout acd4a7f
+  206  dvc checkout
+
+  //create folder myremotestorage//
+  220  dvc remote add -d remote_storage3 *PATH*\DVC-t\myremotestorage
+  221  cd myremotestorage
+  222  dvc push
