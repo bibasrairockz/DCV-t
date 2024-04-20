@@ -1,0 +1,8 @@
+[core]
+    remote = remote_storage3
+['remote "remote_storage"']
+    url = ../UsersbibasDVC-tmyremotestorage
+['remote "remote_storage2"']
+    url = ../UsersbibasDVC-tmyremotestorage
+['remote "remote_storage3"']
+    url = ../UsersbibasDVC-tmyremotestorage
