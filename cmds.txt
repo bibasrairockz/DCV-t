@@ -51,6 +51,6 @@ git checkout 9755bd98
   206  dvc checkout
 
   //create folder myremotestorage//
-  220  dvc remote add -d remote_storage3 *PATH*\DVC-t\myremotestorage
+  220  dvc remote add -d remote_storage3 *PATH*\\DVC-t\\myremotestorage
   221  cd myremotestorage
   222  dvc push
